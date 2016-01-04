@@ -1,10 +1,6 @@
 Psych 254
 ========
 
-This repository is meant to supplement the following course:
+This repository holds the website for Psych 254: Laboratory in Experimental Methods, currently Winter 2016.
 
-#### Psych 254: Laboratory in Experimental Methods
-
-##### Winter 2015
-
-Website here: <add link>
+(Website here)[http://psych254.stanford.edu]
