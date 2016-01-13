@@ -270,7 +270,7 @@
       <h3>Schedule:</h3>
     </a>
 
-    <iframe width="1000px" height="550px" src="https://docs.google.com/spreadsheets/d/10npPK3MjQLOgR94ZTnjbZRcljYiGLPKO5TPaRqAmwM0/pubhtml?chrome=false" style="border: none"></iframe>
+    <iframe width="1000px" height="480px" src="https://docs.google.com/spreadsheets/d/10npPK3MjQLOgR94ZTnjbZRcljYiGLPKO5TPaRqAmwM0/pubhtml?chrome=false" style="border: none"></iframe>
   </div>
 </div>
 
@@ -280,19 +280,19 @@
     <a name="references">
       <h3>References:</h3>
     </a>
-      <br> 
-
       <p>
         Below you will find references for various skills we will be building in class and in problem sets.
         <br>
         <br>
-        You can visit the file directly at <a href="https://docs.google.com/document/d/1TcjhInNgdfn-rhmzgieeYxomyt75BFRrMGKnTBxZKxk/edit?usp=sharing">this link</a>
+        You can visit the file directly at <a href="https://docs.google.com/document/d/1TcjhInNgdfn-rhmzgieeYxomyt75BFRrMGKnTBxZKxk/edit?usp=sharing" target="_blank">this link</a>.  Please comment on this doc if you have found a resource that may be helpful to others. Thanks!
       </p>
       <br>
 
 
 
+    
     <iframe width="800px" height="800px" src="https://docs.google.com/document/d/1TcjhInNgdfn-rhmzgieeYxomyt75BFRrMGKnTBxZKxk/pub?embedded=true"></iframe>
+    <a id='clearBox' href='javascript:removeClearBox()'>&nbsp;</a>
   </div>
 </div>
 </div> <!-- end page container -->
@@ -304,10 +304,15 @@
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script>
-$(".nav li").click(function(x) {
+  $(".nav li").click(function(x) {
   $(".nav li").removeClass("active");
   $(this).addClass("active");
 })
+</script>
+<script type="text/javascript">
+  function removeClearBox() {
+    $('#clearBox').addClass('hidden');
+  }
 </script>
 </body>
 </html>
