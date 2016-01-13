@@ -291,7 +291,7 @@
 
 
     
-    <iframe width="800px" height="800px" src="https://docs.google.com/document/d/1TcjhInNgdfn-rhmzgieeYxomyt75BFRrMGKnTBxZKxk/pub?embedded=true"></iframe>
+    <iframe id="gdoc-ref" width="800px" height="800px" src="https://docs.google.com/document/d/1TcjhInNgdfn-rhmzgieeYxomyt75BFRrMGKnTBxZKxk/pub?embedded=true"></iframe>
     <a id='clearBox' href='javascript:removeClearBox()'>&nbsp;</a>
   </div>
 </div>
@@ -313,6 +313,10 @@
   function removeClearBox() {
     $('#clearBox').addClass('hidden');
   }
+  $( '#gdoc-ref' ).mouseout(
+  function() {
+    $('#clearBox').removeClass('hidden');
+  });
 </script>
 </body>
 </html>
